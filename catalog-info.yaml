@@ -18,6 +18,6 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
 spec:
-  type: api
+  type: service
   owner: Squad Cartão
   lifecycle: production
