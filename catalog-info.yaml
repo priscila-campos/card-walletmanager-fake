@@ -5,14 +5,8 @@ metadata:
   description: |
     This lambda is responsible for saving and managing a card in the transaction.
   links:
-    - title: Bitbucket
-      url: https://bitbucket.org/naturapay/financial-services-payment-card-walletmanager-platform/src/master/
-    - title: Confluence
-      url: https://naturapay.atlassian.net/wiki/spaces/NA/pages/6515949569/Como+Fazer+-+Salvar+Cart+o
-    - title: SonarQube
-      url: https://sonar-v10.mgt.naturabanking.com/dashboard?id=financial-services-payment-card-walletmanager-platform
-    - title: Arquitetura
-      url: https://lucid.app/lucidchart/b233a05f-89ae-410e-a4da-1c29dad7187e/edit?page=0_0#
+    - title: Readme
+      url: https://github.com/priscila-campos/card-walletmanager-fake/blob/main/README.md
   annotations:
     github.com/project-slug: backstage/backstage
     backstage.io/techdocs-ref: dir:.
