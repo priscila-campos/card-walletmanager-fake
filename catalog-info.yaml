@@ -22,4 +22,4 @@ spec:
   owner: Squad Cartão
   lifecycle: production
   definition:
-    $text: ./api-specs/openapi.yaml
+    $text: https://petstore.swagger.io/v2/swagger.json
