@@ -18,9 +18,8 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
 spec:
-  type: api
+  type: openapi
   owner: Squad Cartão
   lifecycle: production
   definition:
-    type: openapi
-    location: ./api-specs/openapi.yaml
+    $text: ./api-specs/openapi.yaml
