@@ -21,3 +21,6 @@ spec:
   type: api
   owner: Squad Cartão
   lifecycle: production
+  definition:
+    type: openapi
+    location: ./api-specs/openapi.yaml
