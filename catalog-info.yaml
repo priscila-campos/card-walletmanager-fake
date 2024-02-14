@@ -22,4 +22,5 @@ spec:
   owner: Squad Cartão
   lifecycle: production
   definition:
-    $text: https://github.com/priscila-campos/card-walletmanager-fake/blob/main/swagger.yaml
+    $text: https://petstore.swagger.io/v2/swagger.json
+    
