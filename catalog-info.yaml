@@ -1,23 +1,23 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
-  name: backstage
+  name: card-walletmanager-fake
   description: |
-    Backstage is an open-source developer portal that puts the developer experience first.
+    This lambda is responsible for saving and managing a card in the transaction.
   links:
-    - title: Website
-      url: http://backstage.io
-    - title: Documentation
-      url: https://backstage.io/docs
-    - title: Storybook
-      url: https://backstage.io/storybook
-    - title: Discord Chat
-      url: https://discord.com/invite/EBHEGzX
+    - title: Bitbucket
+      url: https://bitbucket.org/naturapay/financial-services-payment-card-walletmanager-platform/src/master/
+    - title: Confluence
+      url: https://naturapay.atlassian.net/wiki/spaces/NA/pages/6515949569/Como+Fazer+-+Salvar+Cart+o
+    - title: SonarQube
+      url: https://sonar-v10.mgt.naturabanking.com/dashboard?id=financial-services-payment-card-walletmanager-platform
+    - title: Arquitetura
+      url: https://lucid.app/lucidchart/b233a05f-89ae-410e-a4da-1c29dad7187e/edit?page=0_0#
   annotations:
     github.com/project-slug: backstage/backstage
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
 spec:
-  type: library
-  owner: CNCF
-  lifecycle: experimental
+  type: api
+  owner: Squad Cartão
+  lifecycle: production
