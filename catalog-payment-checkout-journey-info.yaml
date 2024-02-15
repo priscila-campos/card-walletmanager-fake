@@ -13,9 +13,7 @@ metadata:
     lighthouse.com/website-url: https://backstage.io
 spec:
   type: openapi
-  owner: 
-    - name: squad-foundation
-    - name: squad-cartao
+  owner: squad-foundation
   system: SDK Checkout
   lifecycle: production
   definition: |
