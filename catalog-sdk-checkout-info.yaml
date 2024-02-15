@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: payment-checkout-element-fake
-  description: This service is responsible for performing a charge when using a credit card as a mean of payment.
+  description: SDK Website.
 spec:
   type: website
   lifecycle: production
