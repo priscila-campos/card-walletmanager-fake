@@ -15,7 +15,6 @@ spec:
   type: openapi
   owner: Squad Cartão
   lifecycle: production
-  system: skd Checkout
   definition: |
     openapi: "3.0.0"
     info:
