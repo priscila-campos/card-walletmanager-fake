@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Payments
+  description: Payments Financial
+spec:
+  type: sub-department
+  profile:
+    displayName: Payments
+    email: payment@example.com
+    picture: https://logopng.com.br/logos/natura-108.png
+  parent: infrastructure
+  children: [squad-cartao, tribo-payments, squad-foundation]
