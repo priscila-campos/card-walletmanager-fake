@@ -15,6 +15,7 @@ spec:
   type: openapi
   owner: Squad Cartão
   lifecycle: production
+  system: Gateway
   definition: |
     openapi: "3.0.0"
     info:
