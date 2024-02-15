@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: card-walletmanager-fake
+  name: payment-checkout-journey-fake
   description: |
     This lambda is responsible for saving and managing a card in the transaction.
   links:
@@ -13,7 +13,8 @@ metadata:
     lighthouse.com/website-url: https://backstage.io
 spec:
   type: openapi
-  owner: Squad Cartão
+  owner: Squad Foundation
+  system: SDK Checkout
   lifecycle: production
   definition: |
     openapi: "3.0.0"
