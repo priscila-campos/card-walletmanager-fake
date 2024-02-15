@@ -6,7 +6,7 @@ metadata:
 spec:
   type: service
   lifecycle: deprecated
-  owner: Squad Cartão
+  owner: squad-cartao
   system: Gateway
   dependsOn:
     - resource:default/mapping-db
