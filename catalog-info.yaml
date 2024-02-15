@@ -15,8 +15,18 @@ spec:
   type: openapi
   owner: Squad Cartão
   lifecycle: production
-  targets:
-    - ./apis/hello-world-api.yaml
-          
-
-    
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: card-walletmanager-fake
+      description: Responsible for for saving and managing card in the transaction.
+      license:
+        name: MIT
+    servers:
+      - url: https://financial-services-apigw.hml.naturabanking.com
+    paths:
+      /payment-platform/card-walletmanager/users/{userId}/cards:
+        get:
+          summary: List Card By ClientId
+          operationId: GetCardEndpointGetCardByClientId
