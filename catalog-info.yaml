@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: card-walletmanager-fake
+  name: walletmanager
   description: |
     This lambda is responsible for saving and managing a card in the transaction.
   links:
