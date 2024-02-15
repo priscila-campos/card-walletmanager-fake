@@ -3,7 +3,7 @@ kind: API
 metadata:
   name: payment-checkout-journey-fake
   description: |
-    This lambda is responsible for saving and managing a card in the transaction.
+    BFF.
   links:
     - title: Readme
       url: https://github.com/prettier/prettier/blob/main/README.md
@@ -14,7 +14,7 @@ metadata:
 spec:
   type: openapi
   owner: squad-foundation
-  system: SDK Checkout
+  system: catalog-sdk-checkout-info.yaml
   lifecycle: production
   definition: |
     openapi: "3.0.0"

@@ -7,7 +7,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: squad-cartao
-  system: Gateway
   dependsOn:
     - resource:default/chargebuilder-db
   providesApis:

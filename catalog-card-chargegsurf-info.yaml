@@ -7,6 +7,5 @@ spec:
   type: service
   lifecycle: deprecated
   owner: squad-cartao
-  system: Gateway
   dependsOn:
     - resource:default/mapping-db
