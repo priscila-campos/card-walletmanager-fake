@@ -5,9 +5,7 @@ metadata:
   description: Lambda from context card is responsible for preparing and building the charge object.
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: production
   owner: squad-cartao
   dependsOn:
     - resource:default/chargebuilder-db
-  providesApis:
-    - cross-proxy
