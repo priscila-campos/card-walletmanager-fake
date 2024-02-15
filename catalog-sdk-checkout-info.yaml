@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: payment-checkout-element-fake
-  description: SDK Website.
+  description: SDK Checkout.
 spec:
   type: website
   lifecycle: production
