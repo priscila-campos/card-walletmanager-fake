@@ -6,6 +6,6 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: [squad-cartao, squad-foundation]
+  owner: [squad-foundation]
   dependsOn:
     - resource:default/context-events-db
