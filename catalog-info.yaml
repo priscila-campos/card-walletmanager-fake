@@ -19,13 +19,17 @@ spec:
     openapi: "3.0.0"
     info:
       version: 1.0.0
-      title: Artist API
+      title: card-walletmanager-fake
+      description: Responsible for for saving and managing card in the transaction.
       license:
         name: MIT
     servers:
-      - url: http://artist.spotify.net/v1
+      - url: https://financial-services-apigw.hml.naturabanking.com
     paths:
-      /artists:
+      /payment-platform/card-walletmanager/users/{userId}/cards:
         get:
-          summary: List all artists
+          summary: List Card By ClientId
+          operationId: GetCardEndpointGetCardByClientId
+          
+
     
