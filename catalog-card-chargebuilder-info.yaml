@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: payment-card-chargebuilder-fake
+  description: Lambda from context card is responsible for preparing and building the charge object.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Squad Cartão
+  system: Gateway
+  dependsOn:
+    - resource:default/chargebuilder-db
+  providesApis:
+    - cross-proxy
