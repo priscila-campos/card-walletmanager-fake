@@ -2,10 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: squad-cartao
-  description: equpe responsável pelo gateway de cartão.
 spec:
-  profile:
-    displayName: cartao
-    email: cartao@naturapay.com
-    picture: https://logopng.com.br/logos/natura-108.png
+  type: team
   children: []
