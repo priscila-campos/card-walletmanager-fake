@@ -14,7 +14,7 @@ metadata:
 spec:
   type: openapi
   owner: squad-foundation
-  system: catalog-sdk-checkout-info.yaml
+  system: catalog-sdk-checkout-fake
   lifecycle: production
   definition: |
     openapi: "3.0.0"
