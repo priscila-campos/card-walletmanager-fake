@@ -25,7 +25,7 @@ spec:
       license:
         name: MIT
     servers:
-      - url: https://financial-services-apigw.hml.naturabanking.com
+      - url: https://financial-services-apigw.hml.banking.com
     paths:
       /payment-platform/card-walletmanager/users/{userId}/cards:
         get:
