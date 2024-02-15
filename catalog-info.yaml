@@ -15,19 +15,17 @@ spec:
   type: openapi
   owner: Squad Cartão
   lifecycle: production
+  system: artist-engagement-portal
   definition: |
     openapi: "3.0.0"
     info:
       version: 1.0.0
-      title: card-walletmanager-fake
-      description: Responsible for for saving and managing card in the transaction.
+      title: Artist API
       license:
         name: MIT
     servers:
-      - url: https://financial-services-apigw.hml.naturabanking.com
+      - url: http://artist.spotify.net/v1
     paths:
-      /payment-platform/card-walletmanager/users/{userId}/cards:
+      /artists:
         get:
-          summary: List Card By ClientId
-          operationId: GetCardEndpointGetCardByClientId
-          
+          summary: List all artists
