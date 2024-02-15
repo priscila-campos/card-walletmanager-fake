@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: walletmanager-db
+  description: Stores hashes of cards saved in the wallet by clientId
+spec:
+  type: database
+  owner: squad-cartao

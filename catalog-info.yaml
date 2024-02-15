@@ -15,6 +15,10 @@ spec:
   type: openapi
   owner: squad-cartao
   lifecycle: production
+  dependsOn:
+    - resource:default/walletmanager-db
+  providesApis:
+    - gsurf-api
   definition: |
     openapi: "3.0.0"
     info:
