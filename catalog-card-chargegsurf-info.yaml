@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: payment-card-chargegsurf-fake
+  description: Responsible for performing a card payment.
+spec:
+  type: service
+  lifecycle: deprecated
+  owner: Squad Cartão
+  system: Gateway
+  dependsOn:
+    - resource:default/mapping-db

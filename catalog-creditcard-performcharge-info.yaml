@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: payment-creditcard-performcharge-fake
+  description: This service is responsible for performing a charge when using a credit card as a mean of payment.
+spec:
+  type: service
+  lifecycle: production
+  owner: Squad Cartão
+  system: Gateway
+  dependsOn:
+    - resource:default/context-events-db
