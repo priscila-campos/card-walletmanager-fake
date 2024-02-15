@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: payment-cross-proxy-fake
+  description: |
+    This lambda is responsible for saving and managing a card in the transaction.
+  links:
+    - title: Readme
+      url: https://github.com/prettier/prettier/blob/main/README.md
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
+spec:
+  type: openapi
+  owner: Tribo Payments
+  system: Gateway
+  lifecycle: production
+  definition: |
+    openapi: "3.0.0"
+    info:
+      description: Responsible for for saving and managing card in the transaction.
+      version: 1.0.0
+      title: card-walletmanager-fake
+      license:
+        name: MIT
+    servers:
+      - url: https://financial-services-apigw.hml.naturabanking.com
+    paths:
+      /payment-platform/card-walletmanager/users/{userId}/cards:
+        get:
+          summary: List all Card By ClientId
