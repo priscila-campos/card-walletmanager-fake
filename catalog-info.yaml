@@ -15,7 +15,7 @@ spec:
   type: openapi
   owner: Squad Cartão
   lifecycle: production
-  system: card-walletmanager
+  system: skd Checkout
   definition: |
     openapi: "3.0.0"
     info:
