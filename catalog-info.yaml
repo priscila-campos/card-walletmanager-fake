@@ -15,7 +15,6 @@ spec:
   type: openapi
   owner: squad-cartao
   lifecycle: production
-  system: Gateway
   definition: |
     openapi: "3.0.0"
     info:
