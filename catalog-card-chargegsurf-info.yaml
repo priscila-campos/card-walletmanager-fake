@@ -7,5 +7,4 @@ spec:
   type: service
   lifecycle: deprecated
   owner: squad-cartao
-  subcomponentOf:
-    - component: walletmanager-db-fake
+  subcomponentOf: walletmanager-db-fake
