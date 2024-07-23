@@ -7,4 +7,25 @@ spec:
   type: service
   lifecycle: deprecated
   owner: squad-cartao
-  subcomponentOf: walletmanager-db-fake
+  subcomponentOf:
+    - component: walletmanager-db-fake
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: walletmanager-db-fake
+  description: Stores hashes of cards saved in the wallet by clientId
+spec:
+  type: database
+  owner: squad-cartao
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: mapping-db
+  description: The database used for mapping purposes
+spec:
+  type: database
+  owner: squad-cartao
