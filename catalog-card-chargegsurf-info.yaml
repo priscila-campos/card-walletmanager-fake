@@ -8,7 +8,7 @@ spec:
   lifecycle: deprecated
   owner: squad-cartao
   dependsOn:
-    - resource:default/mapping-db
+    - resource: walletmanager-db-fake
 
 ---
 apiVersion: backstage.io/v1alpha1
