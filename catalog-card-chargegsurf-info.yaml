@@ -9,3 +9,10 @@ spec:
   owner: squad-cartao
   dependsOn:
     - resource:default/mapping-db
+kind: Resource
+metadata:
+  name: walletmanager-db-fake
+  description: Stores hashes of cards saved in the wallet by clientId
+spec:
+  type: database
+  owner: squad-cartao
